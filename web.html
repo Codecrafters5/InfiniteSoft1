@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Infinitesoft</title>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+   *{
+    font-family: 'Cairo', sans-serif;
+	  font-weight: 400;
+	  transition: 1s;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: blueviolet;
+  }
+  body{
+    background: #111;
+  }
+  footer{
+    color: #fff;
+    background: black;
+    height: 80px;
+  }
+  footer h3{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 4px;
+  }
+	  .items{
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin-left: 50px;
+	  }
+	 .item {
+  transition: 0.50s;
+	width: 250px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #222;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	border: 1px blueviolet solid;
+}
+.item:hover {
+	transform: translateY(-10px);
+}
+.item img {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+}
+.item h2 {
+	margin: 10px 0 5px 0;
+	font-size: 1.2rem;
+	color: blueviolet;
+}
+h1{
+  margin-top: 60px
+}
+button{
+  background: none;
+  border: 1px blueviolet solid;
+  width: 100px;
+  border-radius: 5px;
+}
+button:hover{
+  color: #fff;
+  background: blueviolet;
+  box-shadow: 1px 1px 5px 1px blueviolet;
+}
+  </style>
+</head>
+<body>
+  <center>
+    <h1>Our projects</h1>
+    <br>
+  <div class="items">
+    <div class="item"><img src="Screenshot_20230410-045554_Spck Editor.jpg" alt=""> <h2>Books Website</h2><button>View Now</button></div>
+    <div class="item">
+      <img src="Screenshot_20230418-055913_Spck Editor.jpg" alt="">
+      <h2>Education Website</h2>
+      <button>View Now</button>
+    </div>
+    <div class="item">
+      <img src="Screenshot_20230407-164416_Spck Editor.jpg" alt="">
+      <h2>To-Do List</h2>
+      <button>View Now</button>
+    </div>
+  </div>
+  </center>
+  <footer>
+    <h3>Copyright By Infinitesoft Team.</h3>
+  </footer>
+</body>
+</html>
